@@ -47,13 +47,19 @@ nav ul li a:hover {
   color: #ffcb05; /* UM Maize Color */
 }
 
-footer {
+
+footer{
+  position: relative;
   background: #00274c;
   color: white;
   padding: 20px;
   text-align: center;
 }
 
+footer a {
+  color: white;
+  text-decoration: none;
+}
 /* END OF COMMON STYLING */
 
 
@@ -70,7 +76,6 @@ footer {
 
   position: relative; /* relative positioning */
   width: 100%; /* full width */
-  height: 100vh; /* full height */
 
   /* backrgound image & sizing */
   background: url("../images/background.jpg") no-repeat center center; /* background image shorthand property*/
